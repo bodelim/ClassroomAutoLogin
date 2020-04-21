@@ -36,3 +36,8 @@
 - 자동 구글 로그인
 - 클래스룸 접속
 - 과목 클릭
+
+
+
+- Copyright(c) 2020 bodelim All rights reserved.
+- 무단배포 및 수정을 금지합니다.
