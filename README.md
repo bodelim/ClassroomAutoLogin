@@ -13,7 +13,7 @@
 ### 설치방법
 - 데스크톱 버전으로 들어오세요
 - git clone 명령어를 사용하거나 .zip 파일로 다운해주세요
-- 'Chromewebdriver.exe'파일을 C드라이브 안에 넣어주세요
+- 'Chromedriver.exe'파일을 C드라이브 안에 넣어주세요
 - Python Ide프로그램에 들어가 코드를 열고 실행해주세요.
 - GG
 
