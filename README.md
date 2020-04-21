@@ -10,6 +10,13 @@
 - xpath 경로를 본인이 바꾸셔서 사용하시길 바랍니다
 - 본인의 컴퓨터에 파이썬 개발환경이 갖추어져 있어야 사용이 가능합니다
 
+### 설치방법
+- 데스크톱 버전으로 들어오세요
+- git clone 명령어를 사용하거나 .zip 파일로 다운해주세요
+- 'Chromewebdriver.exe'파일을 C드라이브 안에 넣어주세요
+- Python Ide프로그램에 들어가 코드를 열고 실행해주세요.
+- GG
+
 ### 라이브러리
 1. pip install schedule
 2. pip install selenium
