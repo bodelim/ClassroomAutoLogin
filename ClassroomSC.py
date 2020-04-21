@@ -13,11 +13,11 @@ def job():
     driver=webdriver.Chrome('C:\chromdriver/chromedriver.exe')
     action = ActionChains(driver)
     driver.get("https://classroom.google.com/u/0/h")
-    driver.find_element_by_id('identifierId').send_keys('013120200714@onedu.jje.go.kr')
+    driver.find_element_by_id('identifierId').send_keys('your email')
     driver.implicitly_wait(5)
     driver.find_element_by_xpath('//*[@id="identifierNext"]/span/span').click()
     driver.implicitly_wait(5)
-    driver.find_element_by_name("password").send_keys('7708qjawns')
+    driver.find_element_by_name("password").send_keys('your password')
     driver.implicitly_wait(5)
     #구글 로그인
     driver.find_element_by_xpath('//*[@id="passwordNext"]/span/span').click()
