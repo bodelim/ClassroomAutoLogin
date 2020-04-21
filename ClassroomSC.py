@@ -13,17 +13,17 @@ def job():
     driver=webdriver.Chrome('C:\chromdriver/chromedriver.exe')
     action = ActionChains(driver)
     driver.get("https://classroom.google.com/u/0/h")
+    #구글 로그인
     driver.find_element_by_id('identifierId').send_keys('your email')
     driver.implicitly_wait(5)
     driver.find_element_by_xpath('//*[@id="identifierNext"]/span/span').click()
     driver.implicitly_wait(5)
     driver.find_element_by_name("password").send_keys('your password')
     driver.implicitly_wait(5)
-    #구글 로그인
     driver.find_element_by_xpath('//*[@id="passwordNext"]/span/span').click()
     driver.implicitly_wait(5)
 
-    #통합과학 클릭
+    #과목의 타이틀 클릭
     driver.find_element_by_xpath('//*[@id="yDmH0d"]/div[4]/div/div[1]/div/ol/li[2]/div[1]/div[3]/h2/a[2]').click()
     driver.implicitly_wait(5)
 
